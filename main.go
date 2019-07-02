@@ -26,7 +26,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 	}
 	links := pageLinks(nil, page)
 	for _, link := range links {
-		fmt.Fprintf(w, "Link = %q\n", link)
+		fmt.Fprintf(w, "Link of my site :) = %q\n", link)
 	}
 }
 
